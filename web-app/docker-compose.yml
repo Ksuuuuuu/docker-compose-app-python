@@ -2,7 +2,7 @@ version: "3"
 services:
   server:
 
-    build: C:/app2/server/
+    build: C:/app2/web-app/server/
 
     command: python ./server.py
 
@@ -11,7 +11,7 @@ services:
 
   client:
 
-    build: C:/app2/client/
+    build: C:/app2/web-app/client/
  
     command: python ./client.py
 
